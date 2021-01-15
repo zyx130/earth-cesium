@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import cesiumHelp from "@/lib/cesiumHelp.js";
+
 export default {
   props: {},
   components: {
