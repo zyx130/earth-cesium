@@ -1,0 +1,204 @@
+@import './ysCesium.css';
+
+/* CSS Document */
+
+html,
+body {
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* 滚动条的样式 */
+
+body::-webkit-scrollbar {
+    width: 1px;
+    height: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    background: rgba(20, 205, 238, 0.3);
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 0;
+    background: rgba(20, 205, 238, 0.1);
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    outline-style: none;
+    /*FF*/
+    list-style: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline-style: none;
+    /*FF*/
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+
+/*css为clearfix，清除浮动*/
+
+.clearfix::after {
+    content: '';
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+/* 滚动条 */
+
+::-webkit-scrollbar {
+    width: 3px;
+    /*滚动条的宽度*/
+    height: 5px;
+    /*滚动条的高度*/
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    /*垂直滚动条的样式*/
+    height: 5px;
+    background-color: #4bb6ac;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    // outline: 1px solid #fff;
+    outline-offset: -2px;
+    // border: 2px solid #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    /*滚动条的hover样式*/
+    height: 5px;
+    border-radius: 5px;
+    background-color: #9f9f9f;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    /*水平滚动条的样式*/
+    width: 5px;
+    border-radius: 5px;
+    background-color: #3b4966;
+    -webkit-border-radius: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    height: 100%;
+    background-color: #3b4966;
+    /*滚动条的背景颜色*/
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /*滚动条的圆角宽度*/
+}
+
+@font-face {
+    font-family: 'FZCYJ';
+    src: url('ttt.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
